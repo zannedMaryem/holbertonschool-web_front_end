@@ -1,6 +1,8 @@
 html {
   scroll-behavior: smooth;
   font-size: 62.5%;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
 }
 :root {
     --color-primary: #d73953;
@@ -32,6 +34,10 @@ body {
     font-size: var(--font-size-medium);
     font-weight: var(--font-weight-regular);
     line-height: var(--line-height-base);
+    margin: 0;
+}
+main {
+  display: block;
 }
 a[href] {
     color: var(--text-color);
@@ -44,7 +50,7 @@ a[href]:hover {
     text-decoration: underline;
 }
 a[href]:active {
-    background: var(--color-light-grey);
+    background-color: var(--color-light-grey);
 }
 
 h1, h2, h3, h4, h5, h6 {

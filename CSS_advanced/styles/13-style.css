@@ -44,7 +44,7 @@ a[href]:hover {
     text-decoration: underline;
 }
 a[href]:active {
-    background-color: var(--color-light-grey);
+    background: var(--color-light-grey);
 }
 
 h1, h2, h3, h4, h5, h6 {

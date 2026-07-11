@@ -281,13 +281,13 @@ textarea {
 }
 .section-hero {
     background-size: 100px 50px;
-    width: 90rem;
     height: auto;
 }
 .section-hero .section-title {
     margin-bottom: 5rem;
 }
 .section-hero .section-inner {
+    width: 90rem;
     padding: 10rem 40rem 2rem 0;
 }
 .section-header{

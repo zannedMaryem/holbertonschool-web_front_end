@@ -79,7 +79,7 @@ a[href]:hover {
     text-decoration: underline;
 }
 a[href]:active {
-    background: var(--color-light-grey);
+    background-color: var(--color-light-grey);
 }
 .button {
     display: var(--button-display);
